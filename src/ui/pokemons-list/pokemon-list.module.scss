@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+
+  &>div {
+    margin: 1rem;
+  }
+
+  &>.p-card-content {
+    display: grid;
+  }
+
+  .card {
+    margin: 1rem;
+  }
+}
